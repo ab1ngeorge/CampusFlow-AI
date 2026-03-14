@@ -6,13 +6,13 @@
 
 ## 🖼️ Screenshots
 
-| Login | Home | Dashboard |
+| Login | Student | HOD |
 |-----|-------|-----------|
 | ![](login.jpg)| ![](home_dashboard.jpg)  | ![](home.jpg) |
 
 | AI Chat | Clearance | Payments |
 |--------|-----------|----------|
-| ![](ai_chat.jpg) | ![](clearance.jpg) | ![](payments.jpg) |
+| ![](ai_chat.jpg) | ![](clearance_workflow.jpg) | ![](payments.jpg) |
 
 ---
 ---
