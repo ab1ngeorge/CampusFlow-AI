@@ -4,6 +4,17 @@
 
 > Built with Flutter + Groq LLM (Llama 3.3 70B) • 9 Integrated Tools • Automated Clearance System
 
+## 🖼️ Screenshots
+
+| Hero | Login | Dashboard |
+|-----|-------|-----------|
+| ![](hero.jpg) | ![](login.jpg) | ![](home.jpg) |
+
+| AI Chat | Clearance | Payments |
+|--------|-----------|----------|
+| ![](ai_chat.jpg) | ![](clearance.jpg) | ![](payments.jpg) |
+
+---
 ---
 
 ## 🏗️ System Architecture
