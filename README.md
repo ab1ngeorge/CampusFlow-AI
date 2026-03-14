@@ -8,7 +8,7 @@
 
 | Hero | Login | Dashboard |
 |-----|-------|-----------|
-| ![](home_dashboard.jpg) | ![](login.jpg) | ![](home.jpg) |
+| ![](login.jpg)| ![](home_dashboard.jpg)  | ![](home.jpg) |
 
 | AI Chat | Clearance | Payments |
 |--------|-----------|----------|
