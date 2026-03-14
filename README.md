@@ -6,7 +6,7 @@
 
 ## 🖼️ Screenshots
 
-| Hero | Login | Dashboard |
+| Login | Home | Dashboard |
 |-----|-------|-----------|
 | ![](login.jpg)| ![](home_dashboard.jpg)  | ![](home.jpg) |
 
