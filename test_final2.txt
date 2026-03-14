@@ -1,0 +1,60 @@
+﻿00:00 +0: loading C:/Users/abing/Desktop/Tera/test/workflow_test.dart
+00:00 +0: Tool 1: Check Dues Student with dues gets dues card
+Γ£à Tool 1 (with dues): Here's your current dues summary, Arjun:
+00:00 +1: Tool 1: Check Dues Student without dues gets all-clear message
+Γ£à Tool 1 (no dues): Great news, Ravi! ≡ƒÄë You have **no pending dues** across any department. You're fully cleared!
+
+Is there anything else I can help you with today?
+00:00 +2: Tool 2 & 3: Clearance Flow Direct certificate request triggers confirmation
+Γ£à Tool 2 (direct type): 2 messages returned
+00:01 +3: Tool 2 & 3: Clearance Flow Generic clearance request asks for type
+Γ£à Tool 2 (ask type): Sure, I can help you with a certificate request! Which one d...
+00:01 +4: Tool 2 & 3: Clearance Flow Multi-step clearance flow: ask type ΓåÆ select ΓåÆ confirm ΓåÆ submit
+Γ£à Tool 2+3 (full flow): Clearance submitted
+00:01 +5: Tool 2 & 3: Clearance Flow Status check returns clearance info
+Γ£à Tool 3 (status): Request CLR-20260301
+00:02 +6: Tool 4: Opportunities Lists matching opportunities
+Γ£à Tool 4: 5 opportunities returned
+00:02 +7: Tool 5: Payment Summary Returns full payment breakdown
+Γ£à Tool 5: Payment summary with total outstanding = Γé╣2550.0
+00:03 +8: Tool 6: Issue Reporting Issue with location skips location step
+Γ£à Tool 6 (with location): That's frustrating ΓÇö I'll log this right away. I've noted th...
+00:03 +9: Tool 6: Issue Reporting Issue without location asks for it
+Γ£à Tool 6 (ask location): That's frustrating ΓÇö I'll get this reported for you. Could y...
+00:03 +10: Tool 6: Issue Reporting Full issue reporting flow: report ΓåÆ location ΓåÆ photo ΓåÆ confirm
+Γ£à Tool 6 (full flow): Issue ticket created
+00:04 +11: Tool 7: Documents Specific document request returns document
+Γ£à Tool 7 (specific): Document card returned
+00:04 +12: Tool 7: Documents General documents request lists all
+Γ£à Tool 7 (all): Type=MessageType.documentInfo
+00:04 +13: Tool 8: FAQ Known FAQ topic returns answer
+Γ£à Tool 8: Based on available information: The Central Library is open from 8:00 AM to 10:0...
+00:04 +14: Tool 8: FAQ Unknown topic returns fallback
+Γ£à Tool 8 (unknown): Fallback message returned
+00:05 +15: Tool 9: Notifications Returns notification list
+Γ£à Tool 9: 4 notifications returned
+00:05 +16: Out-of-Scope Redirection Mental health ΓåÆ counseling cell
+Γ£à Out-of-scope (mental health): Redirected to counseling
+00:06 +17: Out-of-Scope Redirection Medical emergency ΓåÆ health center
+Γ£à Out-of-scope (medical): Redirected to health center
+00:06 +18: Out-of-Scope Redirection Sensitive issue ΓåÆ grievance cell
+Γ£à Out-of-scope (sensitive): Redirected to grievance cell
+00:06 +19: Out-of-Scope Redirection Academic advice ΓåÆ advisor
+Γ£à Out-of-scope (academic): Redirected to advisor
+00:06 +20: Greetings & Welcome Welcome message includes proactive alerts
+Γ£à Welcome: Hey Arjun! ≡ƒæï Welcome to CampusFlow. I'm your campus assistant ΓÇö I can help you ...
+00:06 +21: Greetings & Welcome Greeting returns capabilities list
+Γ£à Greeting: Hey Arjun! ≡ƒæï How can I help you today? Here are some things...
+00:07 +22: Greetings & Welcome Thank you returns farewell
+Γ£à Thanks: You're welcome, Arjun! ≡ƒÿè Feel free to come back anytime you need help. Have a great day! ≡ƒîƒ
+00:07 +23: Campus Tools (Direct) checkDues returns correct data
+Γ£à CampusTools.checkDues: Γé╣3350.0 outstanding
+00:07 +24: Campus Tools (Direct) submitClearanceRequest generates unique ID
+Γ£à CampusTools.submitClearanceRequest: CLR-45694092
+00:07 +25: Campus Tools (Direct) reportIssue generates ticket
+Γ£à CampusTools.reportIssue: ISS-45694096 ΓåÆ IT Department
+00:07 +26: Campus Tools (Direct) getFaq returns results with confidence
+Γ£à CampusTools.getFaq: confidence=0.75, answer=The Central Library is open from 8:00 AM to 10:00 ...
+00:07 +27: Campus Tools (Direct) getNotifications returns unread items
+Γ£à CampusTools.getNotifications: 4 total, 3 unread
+00:07 +28: All tests passed!

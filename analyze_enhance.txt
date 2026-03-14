@@ -1,0 +1,9 @@
+﻿Analyzing chat_provider.dart, chat_screen.dart, home_screen.dart, payment_screen.dart, notification_screen.dart, clearance_screen.dart, profile_screen.dart...
+
+  error - lib\screens\chat_screen.dart:83:24 - The name 'LoginScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\screens\chat_screen.dart:197:17 - The method '_navigateTo' isn't defined for the type '_ChatScreenState'. Try correcting the name to the name of an existing method, or defining a method named '_navigateTo'. - undefined_method
+warning - lib\screens\clearance_screen.dart:8:8 - Unused import: 'main_screen.dart'. Try removing the import directive. - unused_import
+warning - lib\screens\clearance_screen.dart:22:11 - The value of the field '_error' isn't used. Try removing the field, or using it. - unused_field
+warning - lib\screens\profile_screen.dart:5:8 - Unused import: '../services/campus_tools.dart'. Try removing the import directive. - unused_import
+
+5 issues found.

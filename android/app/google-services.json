@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386287025485",
+    "project_id": "ihjug-e78a5",
+    "storage_bucket": "ihjug-e78a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386287025485:android:d8e65fce899aa9e0530b04",
+        "android_client_info": {
+          "package_name": "com.campusflow.campusflow_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoHWT2L6sKhrcvMJifvY1wM3YmSucOXLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

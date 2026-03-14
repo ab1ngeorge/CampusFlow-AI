@@ -1,0 +1,49 @@
+﻿00:00 +0: loading C:/Users/abing/Desktop/Tera/test/workflow_test.dart
+00:00 +0: Tool 2 & 3: Clearance Flow Direct certificate request triggers confirmation
+Γ£à Tool 2 (direct type): 2 messages returned
+00:00 +1: Tool 2 & 3: Clearance Flow Generic clearance request asks for type
+Γ£à Tool 2 (ask type): Sure, I can help you with a certificate request! Which one d...
+00:00 +2: Tool 2 & 3: Clearance Flow Multi-step clearance flow: ask type ΓåÆ select ΓåÆ confirm ΓåÆ submit
+00:01 +2 -1: Tool 2 & 3: Clearance Flow Multi-step clearance flow: ask type ΓåÆ select ΓåÆ confirm ΓåÆ submit [E]
+  Expected: contains 'submitted successfully'
+    Actual: '≡ƒöì **Automated Verification Complete**\n'
+              '\n'
+              'Γ£à **Library** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Hostel** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Accounts** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Lab** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Mess** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Tutor** ΓÇö Verified & Auto-Approved\n'
+              '\n'
+              '≡ƒÄë **ALL 6/6 departments cleared!**\n'
+              '\n'
+              '≡ƒôï **Request ID:** CLR-44871411\n'
+              '≡ƒôè **Status:** Γ£à AUTO-APPROVED\n'
+              '≡ƒôà **Completed:** 14 Mar 2026\n'
+              '\n'
+              '**No physical signatures required.** Your **Bonafide Certificate** has been processed instantly ΓÇö what used to take days now took seconds! ≡ƒÜÇ\n'
+              '\n'
+              'You can download your certificate from the Documents section. '
+     Which: does not contain 'submitted successfully'
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\workflow_test.dart 66:7                        main.<fn>.<fn>
+  
+00:01 +2 -1: Tool 2 & 3: Clearance Flow Status check returns clearance info
+Γ£à Tool 3 (status): Request CLR-20260301
+00:01 +3 -1: Campus Tools (Direct) submitClearanceRequest generates unique ID
+00:01 +3 -2: Campus Tools (Direct) submitClearanceRequest generates unique ID [E]
+  Expected: 'submitted'
+    Actual: 'on_hold'
+     Which: is different.
+            Expected: submitted
+              Actual: on_hold
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\workflow_test.dart 277:7                       main.<fn>.<fn>
+  
+00:01 +3 -2: Some tests failed.

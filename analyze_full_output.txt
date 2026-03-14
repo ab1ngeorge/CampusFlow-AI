@@ -1,0 +1,35 @@
+﻿Analyzing ....
+
+warning - test\workflow_test.dart:4:8 - Unused import: 'package:campusflow_ai/services/mock_data.dart'. Try removing the import directive. - unused_import
+   info - test\workflow_test.dart:18:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:26:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:39:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:47:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:67:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:77:9 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:79:9 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:94:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:106:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:117:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:125:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:148:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:159:9 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:161:9 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:169:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:179:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:187:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:200:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:211:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:219:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:227:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:234:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:246:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:253:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:260:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:270:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:279:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:291:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:297:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test\workflow_test.dart:305:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+
+31 issues found.

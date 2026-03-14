@@ -1,0 +1,58 @@
+﻿Analyzing Tera...                                               
+
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\registration_screen.dart:705:9 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\registration_screen.dart:771:9 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\services\ai_engine.dart:161:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\ai_engine.dart:165:7 - avoid_print
+   info - Unnecessary use of 'toList' in a spread - lib\services\pdf_export.dart:20:67 - unnecessary_to_list_in_spreads
+warning - Unused import: 'package:campusflow_ai/services/mock_data.dart' - test\workflow_test.dart:4:8 - unused_import
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:18:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:39:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:47:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:77:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:79:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:94:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:106:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:117:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:125:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:148:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:159:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:161:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:169:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:179:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:187:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:200:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:211:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:219:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:227:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:234:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:246:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:253:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:260:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:270:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:279:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:291:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:297:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:305:7 - avoid_print
+
+flutter : 36 issues 
+found. (ran in 3.1s)
+At line:1 char:1
++ flutter analyze 2>&1 
+| Out-File -FilePath 
+full_check.txt 
+-Encoding ut ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : 
+NotSpecified    : (36 
+issues found.     (ran 
+in 3.1s):Stri    ng) 
+[], RemoteExcep    tion
+    + 
+FullyQualifiedErr    
+orId : NativeComman    
+dError
+ 

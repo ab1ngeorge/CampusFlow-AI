@@ -1,0 +1,63 @@
+﻿Resolving dependencies...
+Downloading packages...
+  google_fonts 6.3.3 (8.0.2 available)
+  intl 0.19.0 (0.20.2 available)
+  meta 1.17.0 (1.18.1 available)
+Got dependencies!
+3 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing Tera...                                               
+
+   info - Don't invoke 'print' in production code - lib\services\ai_engine.dart:133:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\ai_engine.dart:137:7 - avoid_print
+warning - Unused import: 'package:campusflow_ai/services/mock_data.dart' - test\workflow_test.dart:4:8 - unused_import
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:18:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:39:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:47:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:77:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:79:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:94:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:106:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:117:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:125:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:148:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:159:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:161:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:169:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:179:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:187:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:200:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:211:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:219:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:227:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:234:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:246:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:253:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:260:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:270:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:278:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:290:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:296:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\workflow_test.dart:304:7 - avoid_print
+
+flutter : 33 issues 
+found. (ran in 2.1s)
+At line:1 char:1
++ flutter analyze 2>&1 
+| Out-File -Encoding 
+utf8 
+C:\Users\abing\Desktop 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (33 issues fou   
+ nd. (ran in 2.1s):    
+String) [], Remote    
+Exception
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 

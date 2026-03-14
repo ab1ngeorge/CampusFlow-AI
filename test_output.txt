@@ -1,0 +1,97 @@
+﻿00:00 +0: loading C:/Users/abing/Desktop/Tera/test/workflow_test.dart
+00:00 +0: Tool 1: Check Dues Student with dues gets dues card
+Γ£à Tool 1 (with dues): Here's your current dues summary, Arjun:
+00:00 +1: Tool 1: Check Dues Student without dues gets all-clear message
+Γ£à Tool 1 (no dues): Great news, Ravi! ≡ƒÄë You have **no pending dues** across any department. You're fully cleared!
+
+Is there anything else I can help you with today?
+00:00 +2: Tool 2 & 3: Clearance Flow Direct certificate request triggers confirmation
+Γ£à Tool 2 (direct type): 2 messages returned
+00:01 +3: Tool 2 & 3: Clearance Flow Generic clearance request asks for type
+Γ£à Tool 2 (ask type): Sure, I can help you with a certificate request! Which one d...
+00:02 +4: Tool 2 & 3: Clearance Flow Multi-step clearance flow: ask type ΓåÆ select ΓåÆ confirm ΓåÆ submit
+00:02 +4 -1: Tool 2 & 3: Clearance Flow Multi-step clearance flow: ask type ΓåÆ select ΓåÆ confirm ΓåÆ submit [E]
+  Expected: contains 'submitted successfully'
+    Actual: '≡ƒöì **Automated Verification Complete**\n'
+              '\n'
+              'Γ£à **Library** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Hostel** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Accounts** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Lab** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Mess** ΓÇö Verified & Auto-Approved\n'
+              'Γ£à **Tutor** ΓÇö Verified & Auto-Approved\n'
+              '\n'
+              '≡ƒÄë **ALL 6/6 departments cleared!**\n'
+              '\n'
+              '≡ƒôï **Request ID:** CLR-44729342\n'
+              '≡ƒôè **Status:** Γ£à AUTO-APPROVED\n'
+              '≡ƒôà **Completed:** 14 Mar 2026\n'
+              '\n'
+              '**No physical signatures required.** Your **Bonafide Certificate** has been processed instantly ΓÇö what used to take days now took seconds! ≡ƒÜÇ\n'
+              '\n'
+              'You can download your certificate from the Documents section. '
+     Which: does not contain 'submitted successfully'
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\workflow_test.dart 66:7                        main.<fn>.<fn>
+  
+00:02 +4 -1: Tool 2 & 3: Clearance Flow Status check returns clearance info
+Γ£à Tool 3 (status): Request CLR-20260301
+00:03 +5 -1: Tool 4: Opportunities Lists matching opportunities
+Γ£à Tool 4: 5 opportunities returned
+00:03 +6 -1: Tool 5: Payment Summary Returns full payment breakdown
+Γ£à Tool 5: Payment summary with total outstanding = Γé╣2550.0
+00:04 +7 -1: Tool 6: Issue Reporting Issue with location skips location step
+Γ£à Tool 6 (with location): That's frustrating ΓÇö I'll log this right away. I've noted th...
+00:04 +8 -1: Tool 6: Issue Reporting Issue without location asks for it
+Γ£à Tool 6 (ask location): That's frustrating ΓÇö I'll get this reported for you. Could y...
+00:04 +9 -1: Tool 6: Issue Reporting Full issue reporting flow: report ΓåÆ location ΓåÆ photo ΓåÆ confirm
+Γ£à Tool 6 (full flow): Issue ticket created
+00:05 +10 -1: Tool 7: Documents Specific document request returns document
+Γ£à Tool 7 (specific): Document card returned
+00:05 +11 -1: Tool 7: Documents General documents request lists all
+Γ£à Tool 7 (all): Type=MessageType.documentInfo
+00:06 +12 -1: Tool 8: FAQ Known FAQ topic returns answer
+Γ£à Tool 8: Based on available information: The Central Library is open from 8:00 AM to 10:0...
+00:06 +13 -1: Tool 8: FAQ Unknown topic returns fallback
+Γ£à Tool 8 (unknown): Fallback message returned
+00:07 +14 -1: Tool 9: Notifications Returns notification list
+Γ£à Tool 9: 4 notifications returned
+00:07 +15 -1: Out-of-Scope Redirection Mental health ΓåÆ counseling cell
+Γ£à Out-of-scope (mental health): Redirected to counseling
+00:07 +16 -1: Out-of-Scope Redirection Medical emergency ΓåÆ health center
+Γ£à Out-of-scope (medical): Redirected to health center
+00:08 +17 -1: Out-of-Scope Redirection Sensitive issue ΓåÆ grievance cell
+Γ£à Out-of-scope (sensitive): Redirected to grievance cell
+00:08 +18 -1: Out-of-Scope Redirection Academic advice ΓåÆ advisor
+Γ£à Out-of-scope (academic): Redirected to advisor
+00:08 +19 -1: Greetings & Welcome Welcome message includes proactive alerts
+Γ£à Welcome: Hey Arjun! ≡ƒæï Welcome to CampusFlow. I'm your campus assistant ΓÇö I can help you ...
+00:08 +20 -1: Greetings & Welcome Greeting returns capabilities list
+Γ£à Greeting: Hey Arjun! ≡ƒæï How can I help you today? Here are some things...
+00:09 +21 -1: Greetings & Welcome Thank you returns farewell
+Γ£à Thanks: You're welcome, Arjun! ≡ƒÿè Feel free to come back anytime you need help. Have a great day! ≡ƒîƒ
+00:09 +22 -1: Campus Tools (Direct) checkDues returns correct data
+Γ£à CampusTools.checkDues: Γé╣3350.0 outstanding
+00:09 +23 -1: Campus Tools (Direct) submitClearanceRequest generates unique ID
+00:09 +23 -2: Campus Tools (Direct) submitClearanceRequest generates unique ID [E]
+  Expected: 'submitted'
+    Actual: 'on_hold'
+     Which: is different.
+            Expected: submitted
+              Actual: on_hold
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\workflow_test.dart 277:7                       main.<fn>.<fn>
+  
+00:09 +23 -2: Campus Tools (Direct) reportIssue generates ticket
+Γ£à CampusTools.reportIssue: ISS-44736357 ΓåÆ IT Department
+00:09 +24 -2: Campus Tools (Direct) getFaq returns results with confidence
+Γ£à CampusTools.getFaq: confidence=0.75, answer=The Central Library is open from 8:00 AM to 10:00 ...
+00:09 +25 -2: Campus Tools (Direct) getNotifications returns unread items
+Γ£à CampusTools.getNotifications: 4 total, 3 unread
+00:09 +26 -2: Some tests failed.
